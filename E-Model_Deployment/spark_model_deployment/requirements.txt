@@ -1,0 +1,28 @@
+# Loan Default Prediction API - Python Dependencies
+# ================================================
+
+# Core ML and Data Processing
+pyspark>=4.0.0
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Web Framework
+flask>=2.3.0
+gunicorn>=21.2.0
+
+# Optional: For enhanced API features
+# requests>=2.31.0
+# jsonschema>=4.19.0
+
+# Development and Testing
+# pytest>=7.4.0
+# pytest-flask>=1.2.0
+
+# Production Deployment
+# supervisor>=4.2.0
+# nginx (system package)
+
+# Notes:
+# - Java 17 is required (installed via conda)
+# - Conda environment recommended over pip for PySpark
+# - Use conda-forge channel for best compatibility
